@@ -16,19 +16,19 @@ double calcAverage(int num1, int num2, int num3)
 
 int generateNum()
 {
-	int num = rand() % 100 + 1;
+	int num = 1 + rand()%(100 + 1 - 1);;
 
 	return num;
 }
 
 int main(void)
 {
+	srand(time(NULL));
+
 	int num1 = generateNum();
 	int num2 = generateNum();
 	int num3 = generateNum();
 	double average = calcAverage(num1, num2, num3);
-
-	generateNum();
 
 	printf("Number 1: %d\n", num1);
 	printf("Number 2: %d\n", num2);

@@ -1,3 +1,11 @@
+/*
+HW_06_A
+Jeremy Stark
+10/30/2018
+A program that will generate two random numbers and
+then find and print out the greatest common denomenator denominator.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

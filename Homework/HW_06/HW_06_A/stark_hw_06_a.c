@@ -10,7 +10,7 @@ then find and print out the greatest common denomenator denominator.
 #include <stdlib.h>
 #include <time.h>
 
-
+//Main Method
 int main(void)
 {
   int numOne;

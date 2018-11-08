@@ -1,0 +1,3 @@
+Lowest score: 55.00
+Heighest score: 96.00
+Average score: 79.67

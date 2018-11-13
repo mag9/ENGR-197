@@ -1,0 +1,2 @@
+The runner ran total distance of: 0.46 miles
+At a pace of  4:56 per mile

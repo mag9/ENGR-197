@@ -10,6 +10,11 @@ A program that calulates the cost of mowing a lawn based
 on a calculated area using dimensions input by the user.
 */
 
+/*
+  calcArea function
+  Input width, length, radius, house width, house length
+  Outputs flower area, total area, and house area
+*/
 void calcArea(double width, double length, double radius, double houseW, double houseL, double* totalArea, double* flowerArea, double* houseArea)
 {
   *houseArea = houseL * houseW;
@@ -46,6 +51,7 @@ int main(void)
   //Calculates the final cost using the given rate.
   finalCost = rate * totalArea;
 
+  //Prints final calculated values
   printf("House Area: %0.2lf ft^2\n", houseArea);
   printf("Flower Area: %0.2lf ft^2\n", flowerArea);
   printf("Total Area: %0.2lf ft^2\n", totalArea);

@@ -24,6 +24,7 @@ int main(void)
   double rate = 1.25;
   double width, length, radius, houseL, houseW, totalArea, flowerArea, houseArea, finalCost;
 
+  //Prompts the user to enter measurements
   printf("Enter the width of the lot: \n");
   scanf("%lf", &width);
 
@@ -39,14 +40,16 @@ int main(void)
   printf("Enter the length of the house: \n");
   scanf("%lf", &houseL);
 
+  //Calls the calcArea function
   calcArea(width, length, radius, houseW, houseL, &totalArea, &flowerArea, &houseArea);
 
+  //Calculates the final cost using the given rate.
   finalCost = rate * totalArea;
 
-  printf("House Area: %0.2lf\n", houseArea);
-  printf("Flower Area: %0.2lf\n", flowerArea);
-  printf("Total Area: %0.2lf\n", totalArea);
-  printf("Final Cost: %0.2lf\n", finalCost);
+  printf("House Area: %0.2lf ft^2\n", houseArea);
+  printf("Flower Area: %0.2lf ft^2\n", flowerArea);
+  printf("Total Area: %0.2lf ft^2\n", totalArea);
+  printf("Final Cost: $%0.2lf\n", finalCost);
 
   return 0;
 }

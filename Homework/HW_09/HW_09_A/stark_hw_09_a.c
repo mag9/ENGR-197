@@ -33,6 +33,7 @@ int main(void)
     }
   }
 
+  //Checking whether there are more even or odd numbers
   for(int i = 0; i < 15; i++)
   {
     if(numOdds > numEvens)
@@ -60,6 +61,7 @@ int main(void)
     }
   }
 
+  //Prints out the data
   printf("Odd numbers: %d\n", numOdds);
   printf("Even numbers: %d\n\n", numEvens);
 
